@@ -1,0 +1,13 @@
+.static__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.static__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.static__text {
+  font-size: 20px;
+  font-weight: 500;
+}

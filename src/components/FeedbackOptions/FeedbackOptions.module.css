@@ -1,0 +1,27 @@
+.btn__list {
+  display: flex;
+}
+.btn__item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.btn__feedback {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn__feedback::first-letter {
+  text-transform: uppercase;
+}
+
+.btn__feedback:hover,
+.btn__feedback:focus {
+  background-color: #188ce8;
+  color: #fff;
+}
